@@ -1,0 +1,25 @@
+./hsh
+
+NAME
+	Simple Shell - A rudimentary UNIX shell programmed in C
+
+SYNOPSIS
+	 A Simple Shell, programmed in C capable of performing basic commands
+
+DESCRIPTION
+	A rudimentary version of the UNIX shell with basic capabilities.
+
+	Supported Commands:
+
+	ls: lists files in directory, including flags
+	env: prints the working environment
+	exit: exits the shell
+	PATH: prints the PATH
+	
+	For more information on these commands, utilize their UNIX man pages.
+
+AUTHORS
+	Written by Bertrand Bwashi and Hayden Cooper
+
+GIT REPO
+	https://github.com/darbumas/simple_shell
