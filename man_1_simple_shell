@@ -15,6 +15,8 @@ DESCRIPTION
 	env: prints the working environment
 	exit: exits the shell
 	PATH: prints the PATH
+	
+	For more information on these commands, utilize their UNIX man pages.
 
 AUTHORS
 	Written by Bertrand Bwashi and Hayden Cooper
