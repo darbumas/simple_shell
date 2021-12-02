@@ -1,4 +1,4 @@
-./hsh
+man 1 "December 2021" "1.0" "hsh man page"
 
 NAME
 	Simple Shell - A rudimentary UNIX shell programmed in C
@@ -16,7 +16,7 @@ DESCRIPTION
 	exit: exits the shell
 	PATH: prints the PATH
 	
-	For more information on these commands, utilize their UNIX man pages.
+For more information on these commands, utilize their UNIX man pages.
 
 AUTHORS
 	Written by Bertrand Bwashi and Hayden Cooper
