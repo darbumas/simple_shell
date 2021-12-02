@@ -1,5 +1,5 @@
 # Simple Shell
-===============
+================
 
 ## Introduction
 
@@ -18,7 +18,7 @@ implement a basic version of it.
 
 ## Development Environment
 
-The simple shell in this repository was built, compiled and tested in a virtual instance using Vagrant - Ubuntu 20.4 LTS.
+The simple shell in this repository was built in an online tool made for easy collabration "replit.com"; also, compiled and tested in a virtual instance using Vagrant - Ubuntu 20.4 LTS.
 
 ## Getting Started
 
