@@ -1,0 +1,22 @@
+Simple Shell;
+
+NAME
+	Simple Shell - A rudimentary UNIX shell programmed in C
+
+SYNOPSIS
+	 A Simple Shell, programmed in C capable of performing basic commands
+
+DESCRIPTION
+	A rudimentary version of the UNIX shell with basic capabilities.
+
+	Commands:
+
+	ls: lists files in directory, including flags
+	env: prints the working environement
+	exit: exits the shell
+
+AUTHORS
+	Written by Bertrand Bwashi and Hayden Cooper
+
+GIT REPO
+	https://github.com/darbumas/simple_shell
