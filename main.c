@@ -38,7 +38,7 @@ int main(int argc, char **argv, char **env)
 				_printEnv(buffer, cmds, env);
 			else if (stat(cmds[0], &stat_buf) == 0)
 			{
-				execve(cmds[0], cmds, NULL);
+				execve(cmds[0], cmds, environ);
 				exit(status);
 			}
 			else

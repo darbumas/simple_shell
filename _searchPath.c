@@ -19,7 +19,7 @@ void _searchPath(char **cmds, char *buf, char **env, char **argv, int t)
 	while (path[i])
 	{
 		if (stat(path[i], &stat_f) == 0)
-			execve(path[i], cmds, NULL);
+			execve(path[i], cmds, environ);
 		i++;
 	}
 	_geterrors(argv, cmds[0], t);

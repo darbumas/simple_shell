@@ -42,4 +42,5 @@ void _geterrors(char **argv, char *cmd_name, int tally);
 int write_err(char err);
 
 void _perror(void);
+extern char **environ;
 #endif
