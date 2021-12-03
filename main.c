@@ -37,7 +37,10 @@ int main(int argc, char **argv, char **env)
 			else if (_strcmp(builtin2, cmds[0]))
 				_printEnv(buffer, cmds, env);
 			else if (stat(cmds[0], &stat_buf) == 0)
+			{
 				execve(cmds[0], cmds, NULL);
+				exit(status);
+			}
 			else
 				_searchPath(cmds, buffer, env, argv, tally);
 		}
